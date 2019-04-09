@@ -1,11 +1,23 @@
-#from tkinter import *
+
 import sys
 import os
-#import calculator2
-
 import tkinter as tk
 
-#from tkinter.ttk import Frame, Label, Style
+root = tk.Tk()
+
+
+
+class submit(tk.Frame):
+	pass
+
+class view_finance(tk.Frame):
+
+	def __init__(self, master):
+		tk.Frame.__init__(self)               
+		#self.myfinance = myfinance
+		master.title("Spending tracker")
+
+
 
 
 
@@ -46,32 +58,9 @@ class Window(tk.Frame):
 		submitbutton = tk.Button(master, text='Submit', command=submit)
 		submitbutton.grid(row=8, column=1)
 
-class submit():
-	pass
+		viewbutton = tk.Button(master, text='View Finance', command=view_finance)
+		viewbutton.grid(row=9, column=1)
 
-
-		#calculatorbtn = tk.Button(master, text='Calculator', command=callcalculator)
-		#calculatorbtn.grid(row=7, column=1)
-
-
-
-#class callcalculator(tk.Frame):
-#	def callcalclulator():
-#		os.system('calculator2.py')
-
-	
-
-
-
-
-
-
-	
-
-		
-
-
-root = tk.Tk()
 root.geometry("500x580+500+500")
 app = Window(root)
 root.mainloop()
