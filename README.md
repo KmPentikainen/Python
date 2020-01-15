@@ -17,4 +17,4 @@ Calculator using tkinter
 
 Tracker.py
 
-Program to track your finance with tkinter and MySQL
+Program to track your finance with tkinter 
