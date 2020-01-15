@@ -1,6 +1,6 @@
 # Python
 
-Python practices and experiments!
+Python practices and experiments! Some not finished / fully functioning.
 
 
 Blackjack.py
@@ -9,7 +9,7 @@ Commandline Blackjack game
 
 Teams.py
 
-Experimental practice project with tkinter module
+Experimental practice project with tkinter module 
 
 Calculator.py
 
